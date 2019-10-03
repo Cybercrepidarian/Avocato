@@ -3,7 +3,6 @@ import requests
 import json
 import csv
 import sys
-import os
 
 #Enter your API key here
 apikey = "fc0bffbf1a792d2b6d97f06456c19a4d451029e91318ac05ff671fa529efc769"
@@ -64,7 +63,6 @@ while True:
             
     #Open outputfile and allow user to continue or exit        
     while True:
-        os.startfile(outfile)
         repeat = input("\nScan another file? Y/N: ")
         if repeat.lower() == "y":
             fcount = fcount+1
