@@ -5,7 +5,7 @@ import csv
 import sys
 
 #Enter your API key here
-apikey = "fc0bffbf1a792d2b6d97f06456c19a4d451029e91318ac05ff671fa529efc769"
+apikey = ""
 fcount = 1
 
 print("""
